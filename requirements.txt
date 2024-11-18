@@ -1,0 +1,9 @@
+# Core Libraries
+pandas==1.5.3
+
+# Visualization Libraries
+matplotlib==3.8.0
+seaborn==0.12.3
+
+# GUI Framework (Choose one based on your implementation)
+# For Tkinter, you don’t need to install anything as it comes pre-installed with Python

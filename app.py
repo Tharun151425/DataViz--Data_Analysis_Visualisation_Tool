@@ -59,7 +59,7 @@ def display1():
     window.attributes('-fullscreen', True)
     window.title("CSV Viewer")
 
-    window.configure(background='#000000')
+    window.configure(background='#58ddfe')
 
     button_frame = Frame(window, bg='#d9d9d9')
     button_frame.pack(pady=20)
@@ -92,6 +92,7 @@ def display1():
 
 def display2():
     new_window=Tk()
+    new_window.configure(bg="#ffe6f5")
     new_window.attributes('-fullscreen', True)
     new_window.title("Statistics Viewer")
     label = Label(new_window, text="\t\t Check out these Statistical Values", font=('Arial', 35))
@@ -207,6 +208,7 @@ def display3():
         plt.show()
 
     root = Tk()
+    root.configure(bg="#ffe6f5")
     root.attributes("-fullscreen", True)
     root.title("Dropdown List with Functions Example")
 
@@ -217,7 +219,7 @@ def display3():
 
     button_exit = Button(root, text="Exit", command=close_window, font=('Arial', 20), width=20, bg="white", fg="red",
                          highlightbackground="black", activebackground="red", relief="raised", bd=5)
-    button_exit.pack()
+    button_exit.place(x=700,y=900)
 
     options = ["Model vs Sale", "Horsepower vs Price", "Vehicle Type vs Resale Price", "Model vs Fuel Capacity",
                "Heat Map"]
@@ -639,6 +641,7 @@ def display4():
             sub_dropdown_menu.pack_forget()
 
     root = Tk()
+    root.configure(bg="#ffe6f5")
     root.attributes("-fullscreen",True)
     root.title("Hierarchical Dropdown Example")
 
@@ -675,31 +678,31 @@ def display4():
     main_dropdown.trace('w', on_option_selected)
 
 window = Tk()
-window.configure(bg="white")
-window.title("Data Analysis & Visualisation Tool")
+window.configure(bg="#ffe6f5")
+window.title("DataViz")
 window.attributes('-fullscreen', True)
 
-label0=Label(window,text='''Python Data Analysis & Visualization Tool''',font=('Aerial',45,'bold'))
+label0=Label(window,text='''DataViz - Data Analysis & Visualization Tool''',font=('Aerial',45,'bold'))
 label0.configure(bg="#004cbf",fg="white",padx=20,pady=20,relief="ridge",bd=20)
 label0.place(x=225,y=50)
 label5=Label(window,text="Exploratory Data Analysis with Python Libraries - Simple GUI",font=('Aerial',26,'bold'))
-label5.configure(bg="white",fg="black")
+label5.configure(bg="#ffe6f5",fg="black")
 label5.place(x=350,y=280)
 label4 = Label(window, text="Click here to view the Original and Cleaned Data Sheet", font=('Arial', 25, 'bold'))
-label4.configure(bg="white", fg="black")
+label4.configure(bg="#ffe6f5", fg="black")
 label4.place(x=25, y=400)
 label4 = Label(window, text="Click Here to View the Statistical Values", font=('Arial', 25, 'bold'))
-label4.configure(bg="white", fg="black")
+label4.configure(bg="#ffe6f5", fg="black")
 label4.place(x=25, y=500)
 label4 = Label(window, text="Click Here to View the Analytical Graphs", font=('Arial', 25, 'bold'))
-label4.configure(bg="white", fg="black")
+label4.configure(bg="#ffe6f5", fg="black")
 label4.place(x=25, y=600)
 label5 = Label(window, text="Click Here to View the Statistical Graphs", font=('Arial', 25, 'bold'))
-label5.configure(bg="white", fg="black")
+label5.configure(bg="#ffe6f5", fg="black")
 label5.place(x=25, y=700)
 label6=Label(window,text='''Done By:- 
 Tharunkrishna M''',font=('Times New Roman',25,'bold'))
-label6.configure(bg="#004cbf",fg="white",padx=20,pady=20,relief="ridge",bd=20)
+label6.configure(bg="#004cbf",fg="#ffe6f5",padx=20,pady=20,relief="ridge",bd=20)
 label6.place(x=1225,y=650)
 button = Button(window, text='Check it out', font=('Comic Sans', 20, 'bold'), command=display1, bg="white",fg="black",activebackground="#40E0D0",relief="raised",bd=5)
 button.place(x=925, y=400)
