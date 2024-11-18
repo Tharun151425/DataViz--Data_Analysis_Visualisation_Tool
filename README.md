@@ -7,7 +7,7 @@
 ---
 
 ## 🖼️ **Project Demo**  
-👉 Add screenshots or gifs of your GUI application below:  
+👉 Screenshots of the GUI application is provided below:  
 
 - **Main Dashboard**  
   ![Main Dashboard](Images/dashboard.png)  
@@ -71,6 +71,11 @@
 ---
 4. **Enjoy Analyzing Your Data Effortlessly! 🎉📊✨**
 ---
-## 👨‍💻 **About the Developer**
+## 🤝 Contributing
 
-This project was developed by **Tharunkrishna M** as part of an effort to create a GUI-based Python application for data analysis and visualization using popular libraries such as **Pandas**, **Matplotlib**, and **Seaborn**
+- If you would like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request. Contributions to improve data visualization, enhance performance, or add new features are welcome!
+---
+## 👨‍💻 About the Developer
+
+- This project was developed by **Tharunkrishna M** as part of an effort to create a GUI-based Python application for data analysis and visualization using popular libraries such as **Pandas**, **Matplotlib**, and **Seaborn**
+---
